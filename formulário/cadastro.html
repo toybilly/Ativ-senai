@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+     <form action="ação a executar">
+        <fieldset>
+            <legend>Cadastro de Usuario</legend>
+            <br>
+            <label>Nome:</label>
+            <input type="text" id="tnome" name="inome" placeholder="Digite seu nome">
+            <br>
+            <label for="idatnasc">Data nascimento</label>
+            <br>
+            <input type="date" name="ddatnasc" id="idatnasc">
+            <br>
+            <label>E-mail:</label>
+            <input type="email" id="email" name="nome" placeholder="seuemail@seudominio.com.br">
+            <br>
+            <label>Confirme e-mail</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="isexo">Sexo</label>
+            <select name="ssexo" id="isexo">
+                <option value="M">masculino</option>
+                <option value=" F" selected>feminino</option>
+                <option value="A">Agenero</option>
+
+                <label>Tipo:</label>
+                <input type="radio" name="rtipo" id="itpusurio" value="U">
+                <label for="itusuario">Usuário</label>
+
+                <input type="radio" name="rtipo" id="itpadmin" value="A">
+                <label for="ipadimin">Admin</label>
+                <br>
+
+                <label for="ivoce">Fale sobre você</label>
+                <br>
+                <textarea name="txtvoce" id="ivoce" cols="30" rows="10"></textarea>
+                <br>
+                <input type="submit" value="enviar">
+                      </select>
+
+        </fieldset>
+
+     </form>
+<body>
+    
+</body>
+</html>

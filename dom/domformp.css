@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    height: 50vw;
+    background-color: brown;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+    width: 50%;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: darkgrey;
+}
+
+form > input{
+    font-size: 1.5rem;
+}
+
+table{
+    width: 50%;
+    border: 1px solid black;
+    background-color: darkgrey;
+    font-size: 1.5rem;
+}
+
+.btn{
+    padding: 2%;
+    color: white;
+    background-color: brown;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}

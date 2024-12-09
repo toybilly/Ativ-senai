@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo cadastro</title>
+    <link rel="stylesheet" href="domformp.css">
+   
+</head>
+<body>
+     <form  name="frmPessoa">
+            <label for="iNome">Nome:</label>
+            <input type="text" id="iNome" name="txtNome">
+            <label for="iDtNasc">Data Nascimento:</label>
+            <input type="date" name="dtDtNasc" id="iDtNasc"> 
+            <input type="reset" value="Limpar" class="btn">
+            <input type="button" id="ibtn" class="btn" value="Enviar">
+     </form>  
+     <script src="domformp.js"></script>  
+     
+     <table id="tabela">
+        <thead>
+        <tr>
+            <td>Id</td>
+            <td>Nome</td>
+            <td>Telefone</td>
+            <td>Ação</td>
+        </tr>
+        </thead>
+        <tbody id="tabbody">
+        </tbody>
+        
+        
+     </table>
+
+</body>
+</html>

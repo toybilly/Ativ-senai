@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produto</title>
+</head>
+    <form action="ação a executar">
+        <fieldset>
+            <legend>Cadastro do produto</legend>
+            <label for="produto">Produto: </label>
+            <input type="produto" id="produto" placeholder="Digite o nome do produto">
+            <br>
+            <label for="produto">Data do Cadastro</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <label for="categoria">Categoria:</label>
+            <select name="categoria" id="categoria">
+                <option value="livros">livros</option>
+                <option value="cadernos">cadernos</option>
+            </select>
+            <br>
+            <label for="peso">Peso:</label>
+            <input type="number" id="peso" name="peso">
+            <br>
+            <label>Situação:</label>
+            <label for="novo">novo</label>
+            <input type="radio" name="rnovo" id="novo" value="N">
+            <label for="itpusado">usado</label>
+            <input type="radio" name="rnovo" id="itpusado" value="U">
+            <br>
+            <label for="ivoce">Descrição:</label>
+            <br>
+            <textarea name="txtvoce" id="ivoce" cols="30"
+            rows="10"></textarea>
+            <br>
+            <label>Avaliação</label>
+            <br>
+            <form>
+                <label for="vol">Volume (between 0 and 50):</label>
+                <input type="range" id="vol" name="vol" min="0" max="50">
+              </form>
+              <br>
+              <input type="reset" value="Limpar">
+              <input type="submit" value="Enviar">
+              
+
+
+
+        </fieldset>
+    </form>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+main{
+    width: 95vw;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15vw 70vw 15vw;
+}
+
+header, nav, article, footer {
+    font-size: 2rem;
+    padding: 20px;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(102, 102, 213);
+    grid-column: span 3;
+}
+
+nav {
+    background-color: purple;
+    grid-column: 1 span;
+}
+
+article {
+    background-color: aqua;
+    grid-column: 2 span;
+}
+
+footer {
+    background-color: gray;
+    grid-column: span 3;
+}

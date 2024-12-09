@@ -1,0 +1,87 @@
+body{
+    text-align: center;
+}
+
+form{
+    text-align: left;
+    display: inline-block;
+}
+
+form > div {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input + label {
+    display: inline;
+    margin: 0;
+}
+
+fieldset > input[type="radio"]:not(:first-of-type){
+    margin-left: 40px;
+}
+
+fieldset{
+    display: inline-block;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+input{
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+input:focus{
+    background-color: rgb(185, 183, 183);
+    outline: 2px solid rgb(59, 59, 190);
+}
+
+input:required{
+    background-color: rgb(255, 255, 255);
+}
+
+input:disabled{
+    border: 2px dotted black;
+}
+
+input[type="text"]:valid,
+input[tyoe="email"]:valid,
+input[type="password"]:valid,
+input[type="url"]:valid{
+    background-image: url(img/correct.png);
+    background-repeat: no-repeat;
+    background-position: 95% 45%;
+    background-size: 16px;
+    background-color: rgb(12, 181, 122);
+}
+
+input[type="text"]:invalid,
+input[type="email"]:invalid,
+input[type="password"]:invalid,
+input[type="url"]:invalid{
+    background-image: url(img/warning.png);
+    background-repeat: no-repeat;
+    background-position: 95% 45%;
+    background-size: 16px;
+    background-color: rgb(203, 155, 34);
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
+input[type="radio"]:checked + label{
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}

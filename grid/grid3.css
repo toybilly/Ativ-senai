@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+   width: 95vw;
+   background-color: antiquewhite;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 15vw 70vw 15vw;
+   grid-template-areas:
+   "m h h"
+   "m c c"
+   "m f f";
+}
+
+header, nav, article, footer {
+   font-size: 2rem;
+   padding: 20px;
+   border: 5px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+header {
+background-color: blue;
+grid-area: h;
+}
+
+nav {
+   background-color: purple;
+   grid-area: m;
+   }
+
+article {
+   background-color: aqua;
+   grid-area: c;
+}
+
+footer {
+   background-color: gray;
+   grid-area: f;
+   }
