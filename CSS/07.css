@@ -1,0 +1,21 @@
+body{
+    height: 3000px;
+    background-image: url(bg.jpeg);
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#div1{
+    background-color: blue;
+}
+
+#div2{
+    background-color: red;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}

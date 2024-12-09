@@ -1,0 +1,27 @@
+body{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+h1 i a{
+    color: red;
+}
+
+ h1 > i > a{
+color: black;    
+ }
+
+ p{
+color:blue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+font-weight: 600;
+font-style: italic;
+font-variant: small-caps;
+ }
+ .p2{
+color: red;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: 300;
+ }
